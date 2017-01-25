@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.imagen{
+    height: 100px;
+    background: url(img/imgHead.jpg) no-repeat;
+    background-size: 25%;
+    background-position: -moz-left;
+    background-position: -webkit-left;
+    background-color: white;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 1%;
+    text-align:right;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: condensed;
+    color: black;
+}
+
+#cuerpo{
+    background: url(img/sedeBogo.jpg) no-repeat fixed;
+    background-size: 100%;
+    background-position: center;
+    height: 100%;
+    padding: 1.5%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+form{
+    background-color: rgba(0,0,0,0.6);
+    padding: 1%;
+}
+
+form input{
+    display: inline-block;
+    width: 180px;
+}
+
+form label{
+    display: inline-block;
+    width: 150px;
+}
+
+select{
+    display: inline-block;
+    width: 175px;
+}
+
+#botonR{
+    background-color: darkred;
+    width: 140px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+button{
+    background-color: darkred;
+    width: 140px;
+    height: 30px;
+    border: none;
+}
+
+button a{
+    color: white;
+}
+
+footer{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.footUno{
+    height: 50%;
+    color: white;
+    text-align: center;
+    padding-left:2%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-width: 120px;
+    -moz-column-gap: 24px;
+    -webkit-column-rule: 2px solid #FFFFFF;
+    -moz-column-rule: 2px solid #FFFFFF;
+    
+}
+.footUno a{
+    color: white;
+}
+.footDos{
+    height: 50%;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

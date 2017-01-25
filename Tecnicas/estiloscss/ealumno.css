@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.imagen{
+    height: 100px;
+    background: url(img/imgHead.jpg) no-repeat;
+    background-size: 25%;
+    background-position: -moz-left;
+    background-position: -webkit-left;
+    background-color: white;
+    padding-right: 5%;
+    padding-left: 6%;
+    padding-top: 1%;
+    text-align:right;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: condensed;
+    align-items:center;
+    color: black;
+}
+body{
+    background-color: black;
+}
+#perfil{
+    font-size: 17px;
+}
+
+aside{
+    padding-top: 3%;
+    background-color: #58ACFA;
+    height: 720px;
+    width: 30%;
+    float: left;
+    font-size: 18px;
+}
+
+form label{
+    display: inline-block;
+    width: 1oopx;
+}
+
+form input{
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 500px;
+}
+
+.boton{
+    background-color: darkblue;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    color: white;
+}
+
+section{
+    box-sizing: border-box;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 20%;
+    background-color: #E6E6E6;
+    height: 720px;
+    width: 70%;
+    float: right;
+    font-family: sans-serif;
+}
+
+footer{
+    box-sizing: padding-box;
+    float: left;
+    height: 10%;
+    width: 100%;
+	background: black;
+    bottom: 0;
+    padding: 1%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.footUno{
+    height: 50%;
+    color: white;
+    text-align: left;
+    padding-left: 2%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-width: 120px;
+    -moz-column-gap: 20px;
+    -webkit-column-rule: 2px solid #FFFFFF;
+    -moz-column-rule: 1px solid #FFFFFF;
+
+}
+.footUno a{
+    color: white;
+}
+
+.footDos{
+    font-size: 12px;
+    height: 50%;
+    color: white;
+    text-align: center;
+}
